@@ -85,7 +85,7 @@ header nav .logo_ul ul li {
     padding: 3px 15px;
 }
 
-header nav .logo_ul ul li a{
+header nav .logo_ul ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -93,20 +93,27 @@ header nav .logo_ul ul li a{
     transition: .3s linear;
 }
 
-header nav .logo_ul ul li a:hover{
+header nav .logo_ul ul li a:hover {
     color: rgb(255, 255, 255, .7);
 }
 
-head nav .search_user{
+head nav .search_user {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-head nav .search_user input{
+head nav .search_user input {
     padding: 3px 10px;
     border-radius: 20px;
     border: none;
     outline: none;
+    background: rgb(255, 255, 255, .3);
+    color: #fff;
+    margin-right: 10px;
+}
+
+head nav .search_user input::placeholder {
+    color: #fff;
 }
