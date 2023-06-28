@@ -117,3 +117,7 @@ head nav .search_user input {
 head nav .search_user input::placeholder {
     color: #fff;
 }
+
+head nav .search_user input::placeholder {
+    color: #fff;
+}
