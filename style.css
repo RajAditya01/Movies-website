@@ -97,7 +97,7 @@ header nav .logo_ul ul li a:hover {
     color: rgb(255, 255, 255, .7);
 }
 
-head nav .search_user {
+/* head nav .search_user {
     position: relative;
     display: flex;
     align-items: center;
@@ -111,13 +111,44 @@ head nav .search_user input {
     outline: none;
     background: rgb(255, 255, 255, .3);
     color: #fff;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 head nav .search_user input::placeholder {
     color: #fff;
 }
 
-head nav .search_user input::placeholder {
+head nav .search_user img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+} */
+
+header nav .search_user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .search_user input {
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    margin-right: 20px;
+}
+
+header nav .search_user input::placeholder {
     color: #fff;
 }
+
+header nav .search_user img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+
