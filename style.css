@@ -191,3 +191,17 @@ header nav .search_user .search .card img {
     border-radius: 2px;
     margin-left: 8px;
 }
+
+header nav .search_user .search .card .cont {
+    margin-left: 10px;
+    color: #fff;
+}
+
+header nav .search_user .search .card .cont h3{
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px;
+}
