@@ -160,6 +160,29 @@ header nav .search_user .search {
     right: 0;
     top: 45px;
     z-index: 99999;
+    overflow-y: auto;
+}
+
+header nav .search_user .search ::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header nav .search_user .search ::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: rgb(255, 255, 255, .4);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header nav .search_user .search:hover ::-webkit-scrollbar {
+    visibility: visible;
+}
+
+header nav .search_user .search:hover ::-webkit-scrollbar-thumb {
+    visibility: visible;
 }
 
 header nav .search_user .search .card {
