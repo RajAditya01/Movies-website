@@ -11,10 +11,25 @@ body {
     height: 100vh;
     background: rgb(45, 45, 45);
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
     width: 80%;
     height: 90%;
     border: 1px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 25px -8px #000;
+}
+
+header{
+    width: 80%;
+    height: 90%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 25px -8px #000;
 }
