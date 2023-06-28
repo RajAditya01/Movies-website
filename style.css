@@ -96,3 +96,17 @@ header nav .logo_ul ul li a{
 header nav .logo_ul ul li a:hover{
     color: rgb(255, 255, 255, .7);
 }
+
+head nav .search_user{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+head nav .search_user input{
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
