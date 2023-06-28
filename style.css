@@ -145,11 +145,6 @@ header nav .search_user input::placeholder {
     color: #fff;
 }
 
-/* header nav .search_user img {
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-} */
 header nav .search_user img {
     width: 23px;
     height: 23px;
@@ -178,7 +173,7 @@ header nav .search_user .search .card {
     text-decoration: none;
 }
 
-header nav .search_user .search .card {
+header nav .search_user .search .card::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -189,9 +184,10 @@ header nav .search_user .search .card {
     z-index: -1;
 }
 
+
 header nav .search_user .search .card img {
-    width: 28px;
-    height: 90px;
+    width: 40px;
+    height: 50px;
     border-radius: 2px;
     margin-left: 8px;
 }
