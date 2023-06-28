@@ -94,5 +94,5 @@ header nav .logo_ul ul li a{
 }
 
 header nav .logo_ul ul li a:hover{
-    
+    color: rgb(255, 255, 255, .7);
 }
