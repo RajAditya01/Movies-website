@@ -370,3 +370,14 @@ header section {
     bottom: 20px;
     color: #fff;
 }
+
+header section .card {
+    position: relative;
+    width: 1800%;
+    height: 200px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
