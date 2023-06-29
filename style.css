@@ -259,3 +259,13 @@ header .content p{
     width: 350px;
     word-break: break-all;
 }
+
+header .content .detail{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header .content .detail h6{
+    color: rgb(255, 255, 255, .8);
+}
