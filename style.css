@@ -361,3 +361,12 @@ header .content .btns a {
         background: linear-gradient(295deg, #00bdff, #0079ff);
     }
 }
+
+header section {
+    position: absolute;
+    width: 100;
+    height: auto;
+    padding: 0px 50px;
+    bottom: 20px;
+    color: #fff;
+}
