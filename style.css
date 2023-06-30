@@ -413,6 +413,7 @@ header section .card .card .poster{
 
 header section .card .card {
     width: 300%;
+    overflow: hidden;
 }
 
 header section .card .card .rest_part{
@@ -425,4 +426,23 @@ header section .card .card .rest_part{
     z-index: 999999;
     opacity: 1;
     transition: 1s linear;
+}
+
+header section .card .card .rest_cart img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+header section .card .card .rest_cart::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #000);
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
