@@ -439,3 +439,37 @@ header section .cards .card .rest_cart::after {
     right: 0;
     z-index: -1;
 }
+
+header section .cards .card .rest_cart .cont{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+header section .cards .card .rest_cart .cont .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section .cards .card .rest_cart .cont .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section .cards .card .rest_cart .cont .sub  p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255,.7);
+}
+
+header section .cards .card .rest_cart .cont .sub h3{
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
